@@ -1,0 +1,84 @@
+/* forms.html */
+.formnav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 200;
+}
+.formnav ul li{
+    margin-top: 20px;
+}
+.formnav ul li a:link, .formnav ul li a:visited{
+    text-decoration: none;
+    color: Black;
+}
+.formnav ul li a:hover{
+    font-weight: 1000;
+}
+/* contact css */
+form{
+    border-radius: 5px;
+}
+.input label, .input input, .input select{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+.input input, .input select, input textarea{
+    display: inline;
+}
+.submit input{
+    padding: 5px;
+    margin: 10px;
+    background-color: #9da1a6;
+    border: none;
+    font-size: large;
+}
+.fname input{
+    margin-left: 100px;
+}
+.lname input{
+    margin-left: 104px;
+}
+.email input{
+    margin-left: 148px;
+}
+.phone input{
+    margin-left: 144px;
+}
+.pcontact select{
+    margin-left: 37px;
+}
+.message textarea{
+    margin-left: 96px;
+}
+/* fun form css */
+.formcontent{
+    margin-top: 5px;
+    float: left;
+    margin-left: 5%;
+    width: 500px;
+}
+form{
+    border-radius: 5px;
+}
+.input label, .input input, .input select{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+.input input, .input select, input textarea{
+    display: inline;
+}
+.submit input{
+    padding: 5px;
+    margin: 10px;
+    background-color: #9da1a6;
+    border: none;
+    font-size: large;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
