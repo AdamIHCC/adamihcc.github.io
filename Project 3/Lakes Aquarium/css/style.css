@@ -1,0 +1,112 @@
+#container1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #333; 
+    width: 900px
+}
+header{
+    background-color: #036; 
+    height: 220px; 
+    color: #fff;
+}
+#special{
+    background-color: #09f;
+}
+nav{
+    background-color: #09f; 
+    height: 20px; 
+    color:#fff; 
+    padding-top: 3px;
+    padding-bottom: 17px;
+}
+footer{
+    background-color: #036;
+    height: 50px; 
+    color: #fff;
+    padding: 15px;
+}
+h1{
+    font-size: 18px; 
+    color: #09F
+}
+h2{
+    font-size: 16px; 
+    color: #036
+}
+h3{
+    font-size: 14px; 
+    color: #333
+}
+body{
+    background-image: url(images/site-bg.jpg);
+    background-repeat: repeat-x; 
+    background-color:#5eb3f6
+}
+#content1{
+    background-color: #fff; 
+    padding: 10px;
+}
+#colOne{
+    float: left;
+    width: 200px;
+    background-color: #fff;
+}
+table, th, td{
+    padding: 5px;
+    border: 1px solid;
+    border-color: #999;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    background-color: #999;
+}
+#colTwo{
+    display: table;
+    width: 680px;
+    background-color: #fff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    padding-right: 20px;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: #036;
+    padding: 2px;
+}
+nav a:hover{
+    background-color: #036;
+    padding: 5px;
+}
+#container2{
+    display: flex;
+}
+#footernav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;  
+}
+footer li{
+    padding-right: 15px;
+}
+#footercopyright{
+/* I could not figure out why the Copyright Lakes Aquarium text would not move */
+    align-content: stretch;
+    justify-content: center;
+}
+footer a:link, footer a:visited{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}

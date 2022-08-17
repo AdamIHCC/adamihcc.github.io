@@ -1,0 +1,46 @@
+form{
+    background-color: #EEE;
+    border-radius: 5px;
+}
+.input label, .input input, .input select{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+.input input, .input select, input textarea{
+    display: inline;
+}
+.submit input{
+    padding: 5px;
+    margin: 10px;
+    background-color: #5eb3f6;
+    border: none;
+}
+.radio input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0px;
+}
+.radio label{
+    padding: 5px;
+    margin: 5px;
+}
+.fname input{
+    margin-left: 100px;
+}
+.lname input{
+    margin-left: 100px;
+}
+.email input{
+    margin-left: 130px;
+}
+.phone input{
+    margin-left: 126px;
+}
+.pcontact select{
+    margin-left: 56px;
+}
+.message textarea{
+    margin-left: 115px;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>	
+    <html>
+    <!--Adam Carnicle-Maile, August 3rd, 2022.-->
+        <head>
+           <title>Lakes Aquarium Photos</title> 
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/style.css">
+           <link rel="stylesheet" href="css/photo.css">
+           <link type="media_type" href="images/lakes-aquarium-header.jpg">
+        </head>
+        <body>
+            <div id="container1">
+                <header>
+                    <img src="images/lakes-aquarium-header.jpg" id="special" alt="lakes aquarium header img">
+                </header>
+                <nav>
+                    <uL>
+                        <li><a href="index08.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Families</a></li>
+                        <li><a href="#">Plan Your Visit</a></li>
+                        <li><a href="photo.html">Photos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </uL>
+                </nav>
+                <div id="content1">
+                    <aside id="colOne">
+                        <h2>Our Contact Information</h2>
+                        <p>Phone Number: <br> &nbsp; &nbsp; &nbsp; (800) 123-4567</p>
+                        <p>Lakes Aquarium <br> 1234 Lakeview Dr. <br> Des Moines, IA 50301 <br><br> <a href="http://lakesaquarium.org" title="Visit us online">Visit us online!</a></p>
+                        <H2>Aquarium Hours</H2>
+                        <table>
+                            <tr>
+                                <th>Day</th>
+                                <th>Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Mon</td>
+                                <td>10:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td>10:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wed</td>
+                                <td>10:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Thu</td>
+                                <td>10:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Fri</td>
+                                <td>10:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sat</td>
+                                <td>90:00am - 8:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sun</td>
+                                <td>12:00pm - 5:00pm</td>
+                            </tr>
+                        </table>
+                    </aside><!--end colOne-->
+                    <section id="colTwo">
+                        <h1>Lakes Aquarium Photos</h1>
+                        <div class="grid">
+                            <img src="images/photo gallery/butterfly-fish-thumb.jpg" onclick="open();currentSlide(1)" class="hover-shadow">
+                            <img src="images/photo gallery/scr-fish-thumb.jpg" onclick="open();currentSlide(2)" class="hover-shadow">
+                            <img src="images/photo gallery/alligator-thumb.jpg" onclick="open();currentSlide(3)" class="hover-shadow">
+                            <img src="images/photo gallery/alligator-two-thumb.jpg" onclick="open();currentSlide(4)" class="hover-shadow">
+                            <img src="images/photo gallery/blue-shark-thumb.jpg" onclick="open();currentSlide(5)" class="hover-shadow">
+                            <img src="images/photo gallery/parrot-fish-thumb.jpg" onclick="open();currentSlide(6)" class="hover-shadow">
+                            <img src="images/photo gallery/yellow-fish-thumb.jpg" onclick="open();currentSlide(7)" class="hover-shadow">
+                            <img src="images/photo gallery/whale-shark-thumb.jpg" onclick="open();currentSlide(8)" class="hover-shadow">
+                          </div>
+                      
+                          <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal();">&times;</span>
+                            <div class="mySlides">
+                                <div class="numbertext"> 1/8</div>
+                                <img src="images/photo gallery/butterfly-fish.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 2/8</div>
+                                <img src="images/photo gallery/scr-fish.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 3/8</div>
+                                <img src="images/photo gallery/alligator.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 4/8</div>
+                                <img src="images/photo gallery/alligator-two.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 5/8</div>
+                                <img src="images/photo gallery/blue-shark.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 6/8</div>
+                                <img src="images/photo gallery/parrot-fish.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 7/8</div>
+                                <img src="images/photo gallery/yellow-fish.jpg" style="width: 100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext"> 8/8</div>
+                                <img src="images/photo gallery/whale-shark.jpg" style="width: 100%">
+                            </div>
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            <!-- thumbnail images -->
+                            <img class="demo" src="images/photo gallery/butterfly-fish-thumb.jpg" onclick="currentSlide(1)" alt="">
+                            <img class="demo" src="images/photo gallery/scr-fish-thumb.jpg" onclick="currentSlide(2)" alt="">
+                            <img class="demo" src="images/photo gallery/alligator-thumb.jpg" onclick="currentSlide(3)" alt="">
+                            <img class="demo" src="images/photo gallery/alligator-two-thumb.jpg" onclick="currentSlide(4)" alt="">
+                            <img class="demo" src="images/photo gallery/blue-shark-thumb.jpg" onclick="currentSlide(5)" alt="">
+                            <img class="demo" src="images/photo gallery/parrot-fish-thumb.jpg" onclick="currentSlide(6)" alt="">
+                            <img class="demo" src="images/photo gallery/yellow-fish-thumb.jpg" onclick="currentSlide(7)" alt="">
+                            <img class="demo" src="images/photo gallery/whale-shark-thumb.jpg" onclick="currentSlide(8)" alt="">
+                          </div>
+                          <script>
+                            //open the modal
+                            function openModal(){
+                              document.getElementById("myModal").style.display = "block";
+                            }
+                            function closeModal(){
+                              document.getElementById("myModal").style.display = "none";
+                            }
+                            var slideIndex = 1;
+                            showSlides(slideIndex)
+                      
+                            function plusSLide(n){
+                              showSlides(slikeIndex += n);
+                            }
+                      
+                            function currentSlide(n){
+                              showSlides(slideIndex = n);
+                            }
+                      
+                            function showSlides(n){
+                              var i;
+                              var slides = document.getElementsByClassName("mySlides");
+                              var dots = document.getElementsByClassName("demo");
+                              var captionText = document.getElementById("caption");
+                              if (n > slides.length){slideIndex = 1}
+                              if(n < 1){slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++){
+                                slides [i].style.display = "none";
+                              }
+                              for( i = 0; dots.length; i++){
+                                dots[i].className = dots[i].className.replace("active", "")
+                              }
+                              slides[slideIndex-1].style.display = "block";
+                              dots[slideIndex-1].className += "active";
+                              captionText.innerHTML = dpts[slideIndex-1].alt;
+                            }
+                      
+                          </script>
+                    </section><!--end colTwo-->
+                </div><!--end content1-->
+                <footer id="container2">
+                    <div id="footernav">
+                        <uL>
+                            <li><a href="index08.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Families</a></li>
+                            <li><a href="#">Plan Your Visit</a></li>
+                            <li><a href="photo.html">Photos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </uL>
+                    </div><!--end footernav-->
+                    <div id="footercopyright">
+                        <span id="special">Copyright Lakes Aquarium</span>
+                    </div><!--end footercopyright-->
+                </footer><!--end container2-->
+            </div><!--end container-->
+        </body>
+    </html>
